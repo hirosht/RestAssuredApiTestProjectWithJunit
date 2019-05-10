@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ed2f07b-b014-480d-bcfb-655ce9ba6acf" name="Default Changelist" comment="" />
+    <list default="true" id="5ed2f07b-b014-480d-bcfb-655ce9ba6acf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SampleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,18 +16,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SampleAPI.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+            <state relative-caret-position="150">
+              <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -31,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-360">
-              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -46,11 +52,20 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/SampleAPI.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ApiTest.java" />
       </list>
     </option>
   </component>
@@ -62,16 +77,19 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="57" />
+    <option name="x" value="988" />
     <option name="y" value="25" />
-    <option name="width" value="833" />
+    <option name="width" value="932" />
     <option name="height" value="1055" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,15 +115,18 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sampleRestAssured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -125,11 +146,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SampleAPI.postRequest">
-    <configuration name="SampleAPI" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ApiTest.myFirstRaTest">
+    <configuration name="ApiTest.myFirstRaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sampleRestAssured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SampleAPI" />
+      <option name="MAIN_CLASS_NAME" value="ApiTest" />
+      <option name="METHOD_NAME" value="myFirstRaTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sampleRestAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ApiTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -137,10 +168,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleAPI.makeSureThatGoogleIsUp" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiTest.makeSureThatGoogleIsUp" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="sampleRestAssured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SampleAPI" />
+      <option name="MAIN_CLASS_NAME" value="ApiTest" />
       <option name="METHOD_NAME" value="makeSureThatGoogleIsUp" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -149,10 +180,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleAPI.postRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiTest.postRequest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="sampleRestAssured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SampleAPI" />
+      <option name="MAIN_CLASS_NAME" value="ApiTest" />
       <option name="METHOD_NAME" value="postRequest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -163,9 +194,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SampleAPI.postRequest" />
-        <item itemvalue="TestNG.SampleAPI.makeSureThatGoogleIsUp" />
-        <item itemvalue="TestNG.SampleAPI" />
+        <item itemvalue="JUnit.ApiTest.myFirstRaTest" />
+        <item itemvalue="TestNG.ApiTest.postRequest" />
+        <item itemvalue="TestNG.ApiTest.makeSureThatGoogleIsUp" />
+        <item itemvalue="TestNG.ApiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -183,9 +215,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SampleAPI_makeSureThatGoogleIsUp - 2019.05.09 at 16h 09m 22s.xml">
-      <configuration name="SampleAPI.makeSureThatGoogleIsUp" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SampleAPI_postRequest - 2019.05.09 at 16h 09m 34s.xml">
       <configuration name="SampleAPI.postRequest" configurationId="TestNG" />
     </history-entry>
@@ -213,61 +242,60 @@
     <history-entry file="SampleAPI_postRequest - 2019.05.09 at 16h 19m 26s.xml">
       <configuration name="SampleAPI.postRequest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ApiTest_myFirstRaTest - 2019.05.10 at 13h 54m 19s.xml">
+      <configuration name="ApiTest.myFirstRaTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="25" width="833" height="1055" extended-state="4" />
+    <frame x="988" y="25" width="932" height="1055" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2884371" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4819413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49695122" weight="0.3297414" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.20838627" side_tool="true" visible="true" weight="0.3297414" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.47764227" weight="0.3297414" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7916137" visible="true" weight="0.3297414" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7911964" visible="true" weight="0.33045357" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49548534" weight="0.32937366" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.20880361" side_tool="true" visible="true" weight="0.33045357" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.47629797" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/Sample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Sample.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SampleAPI.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        <state relative-caret-position="150">
+          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
           </folding>
         </state>
       </provider>
