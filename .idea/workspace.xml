@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ed2f07b-b014-480d-bcfb-655ce9ba6acf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SampleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleRestAssured.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredApiTestProjectWithJunit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ApiTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,12 +25,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
+            <state relative-caret-position="461">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,29 +95,29 @@
         <subPane>
           <expand>
             <path>
-              <item name="sampleRestAssured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestAssuredApiTestProjectWithJunit" type="b2602c69:ProjectViewProjectNode" />
               <item name="sampleRestAssured" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sampleRestAssured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestAssuredApiTestProjectWithJunit" type="b2602c69:ProjectViewProjectNode" />
               <item name="sampleRestAssured" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sampleRestAssured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestAssuredApiTestProjectWithJunit" type="b2602c69:ProjectViewProjectNode" />
               <item name="sampleRestAssured" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sampleRestAssured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestAssuredApiTestProjectWithJunit" type="b2602c69:ProjectViewProjectNode" />
               <item name="sampleRestAssured" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sampleRestAssured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestAssuredApiTestProjectWithJunit" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -127,6 +128,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -148,7 +152,7 @@
   </component>
   <component name="RunManager" selected="JUnit.ApiTest.myFirstRaTest">
     <configuration name="ApiTest.myFirstRaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sampleRestAssured" />
+      <module name="RestAssuredApiTestProjectWithJunit" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ApiTest" />
       <option name="METHOD_NAME" value="myFirstRaTest" />
@@ -157,8 +161,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="RestAssuredApiTestProjectWithJunit" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="RestAssuredApiTestProjectWithJunit" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="sampleRestAssured" />
+      <module name="RestAssuredApiTestProjectWithJunit" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ApiTest" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -169,7 +220,7 @@
       </method>
     </configuration>
     <configuration name="ApiTest.makeSureThatGoogleIsUp" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="sampleRestAssured" />
+      <module name="RestAssuredApiTestProjectWithJunit" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ApiTest" />
       <option name="METHOD_NAME" value="makeSureThatGoogleIsUp" />
@@ -181,7 +232,7 @@
       </method>
     </configuration>
     <configuration name="ApiTest.postRequest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="sampleRestAssured" />
+      <module name="RestAssuredApiTestProjectWithJunit" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ApiTest" />
       <option name="METHOD_NAME" value="postRequest" />
@@ -215,9 +266,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SampleAPI_postRequest - 2019.05.09 at 16h 09m 34s.xml">
-      <configuration name="SampleAPI.postRequest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SampleAPI_postRequest - 2019.05.09 at 16h 09m 56s.xml">
       <configuration name="SampleAPI.postRequest" configurationId="TestNG" />
     </history-entry>
@@ -245,12 +293,15 @@
     <history-entry file="ApiTest_myFirstRaTest - 2019.05.10 at 13h 54m 19s.xml">
       <configuration name="ApiTest.myFirstRaTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ApiTest_myFirstRaTest - 2019.05.10 at 14h 02m 57s.xml">
+      <configuration name="ApiTest.myFirstRaTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="988" y="25" width="932" height="1055" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4819413" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4334086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -260,15 +311,15 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7911964" visible="true" weight="0.33045357" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.79006773" visible="true" weight="0.33045357" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49548534" weight="0.32937366" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.20880361" side_tool="true" visible="true" weight="0.33045357" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.47629797" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7968397" weight="0.32937366" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.20993228" side_tool="true" visible="true" weight="0.33045357" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4751693" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -290,15 +341,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
+        <state relative-caret-position="461">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>RestAssuredApiTestProjectWithJunit</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
